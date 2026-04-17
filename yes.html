@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>얏호</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div class="hearts-bg"></div>
+
+    <div class="container yes-container">
+        <h1 class="yes-title">좋아요라구 할 줄 알아써 역시 정혀니얌 🎉</h1>
+
+        <div class="gif-container">
+            <img id="cat-gif" src="https://i.pinimg.com/originals/74/1c/e3/741ce3ccca9c2b5d3313f609eb172e5c.gif" alt="celebrating">
+        </div>
+
+        <p class="yes-message">다롱이랑 놀자 기다리는 중.. 뉴뉴</p>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="music/beabadoobee - Glue Song (Lyrics).mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="music-toggle" onclick="toggleMusic()" title="Toggle music">🔊</button>
+
+    <script src="yes-script.js"></script>
+</body>
+</html>
